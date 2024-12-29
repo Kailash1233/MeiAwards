@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes text-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-text-gradient {
+  background: linear-gradient(
+    90deg,
+    #ffcc00,
+    #ff9900,
+    #ff6600,
+    #ffcc00
+  ); /* Brighter gradient */
+  background-size: 400% 400%; /* Increase flow intensity */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text-gradient 5.5s ease-in-out infinite; /* Faster animation */
+}
+
+.text-goldz {
+  background: linear-gradient(90deg, #ffd700, #ff8c00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
