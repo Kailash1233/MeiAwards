@@ -88,6 +88,16 @@ const App = () => {
             Entry Fees
           </a>
         </div>
+
+        {/* Arrow Button Section */}
+        <div className="mt-8 flex justify-center">
+          <a
+            href="#rules"
+            className="animate-bounce text-yellow-400 text-3xl font-bold"
+          >
+            ↓ Rules Down ↓
+          </a>
+        </div>
       </div>
     </>
   );
