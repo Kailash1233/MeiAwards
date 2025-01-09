@@ -11,9 +11,17 @@ const Gallery = () => {
     { src: "/gallery/prize5.jpg", alt: "Group Receiving Certificates" },
     { src: "/gallery/screen.jpg", alt: "Event Highlights on Screen" },
     { src: "/gallery/screen2.jpg", alt: "Live Event Coverage" },
-    { src: "/gallery/prize6.jpg", alt: "Special Recognition Award" },
+    { src: "/gallery/IMG_80181.jpg", alt: "Special Recognition Award" },
     { src: "/gallery/prize7.jpg", alt: "Judges Panel Applause" },
     { src: "/gallery/prize8.jpg", alt: "End of Event Group Photo" },
+    { src: "/gallery/1.jpg", alt: "Winners of Mei Awards" },
+    { src: "/gallery/2.jpg", alt: "Winners of Mei Awards" },
+    { src: "/gallery/3.jpg", alt: "Winners of Mei Awards" },
+    { src: "/gallery/4.jpg", alt: "Winners of Mei Awards" },
+    { src: "/gallery/5.jpg", alt: "Winners of Mei Awards" },
+    { src: "/gallery/6.jpg", alt: "Winners of Mei Awards" },
+    { src: "/gallery/7.jpg", alt: "Winners of Mei Awards" },
+    { src: "/gallery/8.jpg", alt: "Winners of Mei Awards" },
   ];
 
   return (
