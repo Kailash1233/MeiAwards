@@ -110,8 +110,8 @@ const Footer = () => {
         <div className="mt-12 pt-4 border-t border-gray-800 text-center text-gray-400 text-sm">
           <p>
             © Mei International Film Festival 2024. All Right Reserved. Design by{' '}
-            <a href="#" className="text-blue-500 hover:text-blue-400">
-              Marvice Media Pvt Ltd
+            <a href="https://www.adszoo.in/" className="text-blue-500 hover:text-blue-400">
+              Adszoo.in
             </a>
           </p>
         </div>

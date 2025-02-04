@@ -12,37 +12,37 @@
         name: 'Gallery', 
         hasDropdown: true,
         dropdownItems: [
-          'Photo Gallery 2023',
-          'Photo Gallery 2022',
-          'Video Gallery 2023',
-          'Video Gallery 2022',
-          'Award Ceremony Highlights'
+          'OCT - NOV 2024',
+          'JULY - SEPT 2024',
+          'JULY 2024',
+          'MIFF AND VELS UNIVERSITY',
+          'OCT 2023'
         ]
       },
       { 
         name: 'Winners', 
         hasDropdown: true,
         dropdownItems: [
-          'Winners 2023',
-          'Winners 2022',
-          'Winners 2021',
-          'Hall of Fame'
+          'NOV 2024 - JAN 2025',
+          'OCT - NOV 2024',
+          'JULY - SEPT 2024',
+          'APR - MAY 2024'
         ]
       },
       { 
         name: 'Official Selection', 
         hasDropdown: true,
         dropdownItems: [
-          'Official Selection 2023',
-          'Official Selection 2022',
-          'Official Selection 2021'
+          'NOV 2024 - JAN 2025',
+          'OCT - NOV 2024',
+          'JULY - SEPT 2024'
         ]
       },
       { 
         name: 'Press', 
         hasDropdown: true,
         dropdownItems: [
-          'Press Releases'
+          'July 2024'
         ]
       },
       { name: 'Contact Us', hasDropdown: false },
