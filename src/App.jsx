@@ -12,93 +12,44 @@ const App = () => {
         />
         <meta name="keywords" content="Home" />
       </Helmet>
-      <div className="bg-gradient-to-br from-purple-950 to-black min-h-screen flex flex-col items-center justify-center text-gold p-4">
-        {/* Header Section */}
-        <header className="text-center">
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-wide uppercase text-transparent bg-clip-text relative">
-            <span className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 animate-text-gradient">
-              MEI INTERNATIONAL FILM FESTIVAL
-            </span>
-          </h1>
-          <p className="text-lg md:text-2xl italic mb-8 text-gray-300">
-            In association with Vel Tech Rangarajan Dr. Sagunthala R&D Institute
-            of Science and Technology
-          </p>
-        </header>
-
-        {/* Logos Section */}
-        <div className="flex flex-wrap justify-center items-center gap-8 mb-12">
-          <a
-            href="https://meifilmfestival.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+        {/* Background Wrapper */}
+        <div className="relative w-full min-h-screen overflow-hidden flex flex-col justify-end">
+          {/* Background Video */}
+          <video
+            className="absolute top-0 left-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
           >
-            <img
-              src="/images/mei.png"
-              alt="Mei International Film Festival"
-              className="w-28 md:w-36 h-28 md:h-36 object-contain rounded-lg"
-            />
-          </a>
-          <img
-            src="/images/veltech.png"
-            alt="Vel Tech"
-            className="w-28 md:w-36 h-28 md:h-36 object-contain rounded-lg"
-          />
-          <img
-            src="/images/ugcnaac.png"
-            alt="UG NAAC"
-            className="w-28 md:w-36 h-28 md:h-36 object-contain rounded-lg"
-          />
-          <img
-            src="/images/a+.png"
-            alt="NAAC A+"
-            className="w-28 md:w-36 h-28 md:h-36 object-contain rounded-lg"
-          />
-        </div>
+            <source src="https://meifilmfestival.com//wp-content//uploads//2024//07//MEI-AWARD-LOGO-4k.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
 
-        <div className="bg-gradient-to-r from-yellow-500 to-yellow-700 text-center py-4 px-1 mb-12 rounded-lg shadow-lg w-full max-w-3xl">
-          <p className="text-3xl font-extrabold text-white">
-            30 Categories, 30 Awards, Given to 30 Winners!
-          </p>
-          <p className="text-lg text-gray-200 mt-2">
-            Be a part of this prestigious event and showcase your talent.
-          </p>
+          <div className="relative z-10 text-center p-4 sm:p-6 md:p-12 mb-8">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-yellow-400 leading-tight">
+              Celebrating <br />
+              Visionary <br />
+              Filmmaking
+            </h1>
+            <p className="text-white text-base sm:text-lg mt-4 max-w-2xl mx-auto px-4">
+              Welcome to the Mei International Film Festival, where we celebrate the
+              creativity, diversity, and independence in the art of cinema.
+            </p>
+            <button className="mt-6 px-4 sm:px-6 py-2 sm:py-3 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-lg transition duration-300">
+              FILMFREEWAY
+            </button>
+          
+            {/* Laurel Images Section */}
+            <div className="mt-8 flex flex-wrap justify-center gap-4 px-4">
+              <img src="/images/Mei International film Awards_files/Laurel-Design-1.png" alt="Official Selection" className="h-8 sm:h-10 md:h-12" />
+              <img src="/images/Mei International film Awards_files/Laurel-Design-1.png" alt="Quarter-Finalist" className="h-8 sm:h-10 md:h-12" />
+              <img src="/images/Mei International film Awards_files/Laurel-Design-1.png" alt="Semi-Finalist" className="h-8 sm:h-10 md:h-12" />
+              <img src="/images/Mei International film Awards_files/Laurel-Design-1.png" alt="Finalist" className="h-8 sm:h-10 md:h-12" />
+              <img src="/images/Mei International film Awards_files/Laurel-Design-1.png" alt="Winner" className="h-8 sm:h-10 md:h-12" />
+            </div>
+          </div>
         </div>
-
-        {/* Buttons Section */}
-        <div className="flex flex-col md:flex-row gap-6 items-center">
-          <a
-            href="https://registration.meifilmfestival.com/student-registration/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white font-extrabold py-3 px-6 rounded-lg shadow-lg w-60 text-xl text-center"
-          >
-            Student Category
-            <br />
-            Entry Fees
-          </a>
-          <a
-            href="https://registration.meifilmfestival.com/common-category/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-700 hover:to-purple-900 text-white font-extrabold py-3 px-6 rounded-lg shadow-lg w-60 text-xl text-center"
-          >
-            Common Category
-            <br />
-            Entry Fees
-          </a>
-        </div>
-
-        {/* Arrow Button Section */}
-        <div className="mt-8 flex justify-center">
-          <a
-            href="#rules"
-            className="animate-bounce text-yellow-400 text-3xl font-bold"
-          >
-            ↓ Rules Down ↓
-          </a>
-        </div>
-      </div>
     </>
   );
 };
